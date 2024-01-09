@@ -9,9 +9,24 @@
 }
     
 .banner{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+    background-image: url(../images/Banner\ Image.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 50px 140px 0 140px;
 }
-    
+.offer{ 
+    color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 88px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.party{
+   margin: 0 140px;
+    width: 1320px;
+height: 600px;
+flex-shrink: 0;
+}
